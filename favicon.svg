@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Babosky icon</title>
+  <desc id="desc">A rounded-square icon with a blue gradient and a stylized B monogram.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1d48"/>
+      <stop offset="100%" stop-color="#102d75"/>
+    </linearGradient>
+    <linearGradient id="mark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#90cdf4"/>
+      <stop offset="36%" stop-color="#73a9ff"/>
+      <stop offset="100%" stop-color="#3dd9c6"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="512" height="512" rx="120" fill="url(#bg)"/>
+  <circle cx="256" cy="256" r="168" fill="none" stroke="rgba(124, 153, 255, 0.8)" stroke-width="8"/>
+
+  <path d="M184 128h108c62 0 106 32 106 84 0 32-19 58-49 70 30 11 52 38 52 77 0 66-52 108-126 108H184V128Zm58 53v86h40c28 0 45-14 45-38s-17-48-45-48h-40Zm0 138v92h47c31 0 50-17 50-46 0-29-19-46-50-46h-47Z" fill="url(#mark)"/>
+</svg>
